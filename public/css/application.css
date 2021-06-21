@@ -1,0 +1,146 @@
+/* 
+ *====Select2 Dropdown Css===
+ */
+.tambah {
+    padding: 7px 7px 7px 7px;
+    margin-top: 5px;
+}
+
+.tambah button {
+    border-radius: 0px;
+}
+
+.select2-results__option--highlighted {
+    background-color: transparent !important;
+    color: black !important;
+}
+
+.select2-results__option--highlighted:hover {
+    box-shadow: 0 0 10px 100px #6c757d inset;
+}
+
+.select2-container .select2-selection--single {
+    height: 37px !important;
+}
+
+/* 
+ *  ==== Foto Css ===
+ */
+.upload-demo.ready #upload-demo {
+    display: block;
+}
+
+.upload-demo.ready .buttons #upload-result,
+.upload-demo.ready .buttons #reset {
+    display: inline;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.upload-demo #upload-demo,
+.buttons,
+.upload-demo.ready .upload-msg {
+    display: none;
+}
+
+/* .upload-demo input, .buttons, .upload-demo #upload-demo { */
+#imagePreview {
+    width: 180px;
+    height: 180px;
+    background-position: center center;
+    background-size: cover;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, .3);
+    display: inline-block;
+}
+
+.upload-msg {
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 22px;
+    color: #aaa;
+    margin: 10px auto;
+    border: 1px solid #aaa;
+    cursor: pointer;
+}
+
+#upload {
+    position: absolute;
+    top: -1000px;
+}
+
+#btn {
+    background-color: #189094;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 3px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    text-shadow: none;
+    cursor: pointer;
+    width: auto;
+    margin: 0 auto;
+}
+
+/* Hack Boundary because is over size */
+.cr-boundary {
+    width: 100% !important;
+}
+
+.desc_drag {
+    font-size: 12px;
+    padding: 10px 0px 5px 0px;
+}
+
+.desc {
+    font-size: 14px;
+    text-align: center;
+}
+
+/* 
+ * ====Button Dropdown Css===
+*/
+.btn-simpan {
+    width: 150px;
+}
+.dropdown-menu {
+    min-width: 100% !important;
+}
+
+/* 
+ * ====InfoBox Css===
+ */
+.info-box{
+    min-height: 95px !important;
+}
+/* 
+ * ====Button Dropdown Css===
+ */
+/* 
+    .dropdown-menu{
+        transform: translate3d(0px, 38px, 0px)!important;
+        width:100%;
+    } 
+*/
+
+
+/* 
+ * ==== Tabel Css ===
+ */
+ul.aksi {
+    width: 76px;
+    display: inline-block;
+}
+
+/* 
+ * ==== Sidebar Second Brand text Css ===
+ */
+.brand-text-second {
+    display: block;
+    /* margin-left: 53px; */
+}
